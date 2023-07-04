@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    
+    <title>MercadoLiebre</title>
+</head>
+<body id="colorcin">
+    <header>
+        <div>
+            <img class="logo" src="img/mercado-liebre.png" alt="logo">
+            <br>
+            <a class="productos-header" href="" ><i class='bx bxs-hand'></i>Todos los productos</a>
+        </div>
+
+        <p class="opiniones"><i class='bx bxs-star'></i>Todas las opiniones</p>
+        <nav class="header-nav">
+            <a href="./registro.html"><i class='bx bxs-plus-circle'></i>Crea tu cuenta</a>
+            <button href="" data-bs-toggle="modal" data-bs-target="#dialogo1"> <i class='bx bxs-log-in' ></i>Ingresa tu cuenta</button>
+        </nav>
+       
+
+        <div class="modal fade" id="dialogo1">
+        <div class="modal-dialog">
+             <div class="modal-content">
+                <form action="">
+
+                    <div>
+                        <img src="./img/mercado-liebre.png" alt="">
+                        <h1>Ingresar</h1>
+                    </div>
+                    <div>
+                        <label for="Nombre">Nombre</label>
+                        <input type="text" name="Nombre" id="Nombre">
+                    </div>
+                    
+                        
+                        <button type="button" >Ingresar</button>
+                    </div>
+                </form>
+            </div>
+         </div>
+        </div>
+
+    </header>
+    <main>
+        <section>
+            <div id="carouselExampleSlidesOnly" data-bs-ride="carousel" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./img/banner1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/banner2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/banner3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/banner4.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/banner5.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/banner6.webp" class="d-block w-100" alt="...">
+                  </div>
+        </section>
+        <section>
+          
+    <div class="conteiner">
+      <div class="row">
+        <div class="col-sm-4">
+        <i class='bx bxs-credit-card icono'></i>
+          <div class="carta">
+              <h5>Todas las Tarjetas</h5>
+              <p class="card-text"><a href="#" class="acard">De cualquier banco</a></p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <i class='bx bxs-lock-alt icono'></i>
+          <div class="carta">
+              <h5>Sitio seguro</h5>
+              <p class="card-text"><a href="#" class="acard">Libre de estafas y fraudes</a></p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <i class='bx bxs-wallet-alt icono'></i>
+          <div class="carta">
+              <h5>Efectivo</h5>
+              <p class="card-text"><a href="#" class="acard">Mas info</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+        </section>
+
+        <section class="productos">
+            <h2>Productos</h2>
+            <br>
+            <div class="contenedor-productos">
+                <div>
+                    <img class= "producto" src="./img/productos/img-cafetera-moulinex.jpg" alt="">
+                    <h3>Cafetera</h3>
+                    <a href="">Comprar</a>
+                </div>
+                <div>
+                    <img class= "producto" src="img/productos/producto2.webp" alt="">
+                    <h3>Freidora de Aire</h3>
+                    <a href="">Comprar</a>
+                </div>
+                <div>
+                    <img class= "producto" src="img/productos/producto1.webp" alt="">
+                    <h3>Salamandra</h3>
+                    <a href="">Comprar</a>
+                </div>
+                <div>
+                    <img class= "producto" src="img/productos/producto3.webp" alt="">
+                    <h3>Plancha para el pelo</h3>
+                    <a href="">Comprar</a>
+                </div>
+
+            </div>
+        </section>
+        <section class="productos_dos">
+            <div>
+                <img class="producto-2" src="./img/productos/img-tv-samsung-smart.jpg" alt="Televisión">
+                <h3>TV Samsung Smart</h3>
+            </div>
+            <div>
+                <img class="producto-2" src="./img/productos/producto4.webp" alt="Televisión">
+                <h3>Samsung S23 Ultra</h3>
+            </div>
+
+        </section>
+        <section class="productos_tres">
+            <div class="producto card" style="width: 18rem;">
+                <img src="img/productos/producto5.webp" class="producto card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Bicicleta</h5>
+                  <p class="card-text">Una bicicleta muy copada.</p>
+                  <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+              </div>
+              <div class="producto card" style="width: 18rem;">
+                <img src="img/productos/producto6.webp" class="producto card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Television</h5>
+                  <p class="card-text">Un tv copadisimo</p>
+                  <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+              </div>
+              <div class="producto card" style="width: 18rem;">
+                <img src="img/productos/producto7.webp" class="producto card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Celular</h5>
+                  <p class="card-text">Un celular re epico</p>
+                  <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+              </div>
+              <div class="producto card" style="width: 18rem;">
+                <img src="img/productos/producto8.webp" class="producto card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Fundas epicas</h5>
+                  <p class="card-text">Unas fundas epicas dignas de papus</p>
+                  <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+              </div>
+        </section>
+        <br>
+        <nav aria-label="Page navigation example">
+          <ul class="pagination pagina">
+            <li class="page-item">
+              <a class="page-link" href="index.html" aria-label="Anterior">
+                <span aria-hidden="true">&laquo;</span>
+              </a>
+            </li>
+            <li class="page-item"><a class="page-link" href="index.html">1</a></li>
+            <li class="page-item"><a class="page-link" href="index 2.html">2</a></li>
+            <li class="page-item">
+              <a class="page-link" href="index 2.html" aria-label="Siguiente">
+                <span aria-hidden="true">&raquo;</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+
+    </main>
+    <footer class="footer-nav">
+        <div class="row">
+            <div class="col-4">
+                <h2>Seguinos</h2>
+                <ul>
+                    <li><a href="https://facebook.com"><i class='bx bxl-facebook-circle' ></i>Facebook</a></li>
+                    <li><a href="https://instagram.com"><i class='bx bxl-instagram' ></i>Instagram</a></li>
+                    <li><a href="https://linkedin.com"><i class='bx bxl-linkedin' ></i>LinkedIn</a></li>
+                    <li><a href="https://youtube.com"><i class='bx bxl-youtube' ></i>YouTube</a></li>
+                </ul>
+            </div>
+            <div class="col-4">
+                <h2>Otros Servicios</h2>
+                <ul>
+                <li><a href=""><i class='bx bxs-wallet'></i>Mercado Liebre Pagos</a></li>
+                <li><a href=""><i class='bx bxs-shopping-bag' ></i>Mercado Liebre Shops</a></li>
+                <li><a href=""><i class='bx bx-package'></i>Mercado Liebre Envíos</a></li>
+                </ul>
+              
+               
+            </div>
+            <div class="col-4">
+                <h2>Trabajá con Nosotros</h2>
+                <input type="text">
+                <button type="button" class="btn btn-primary">Enviar acá</button>
+                
+            </div>
+        
+        </div>
+
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
